@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #c4c4c4;
+}
+
+.dashboard {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.dashboard-content {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    color: #1d4ed8;
+}
+
+.dashboard-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.dashboard-date {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #777;
+}
+
+.dashboard-cards {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+    align-self: center;
+}  
